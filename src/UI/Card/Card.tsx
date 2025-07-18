@@ -3,6 +3,7 @@ import Image from "next/image"
 interface CardProps{
   image: string;
   alt: string;
+  message: string;
   onMouseEnter?: (message: string) => void;
   onMouseLeave?: () => void;
 }
