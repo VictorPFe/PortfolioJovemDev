@@ -2,11 +2,11 @@
 
 import React from "react";
 // import { useState } from "react";
-import { Modal } from "../UI/Modal/Modal";
+// import { Modal } from "../UI/Modal/Modal";
 import InicialCadastro from "../../public/images/NextCrud/Inicial.png";
-import NextJs from "../../public/tecnologias/NextJs.svg";
-import TypeScript from "../../public/tecnologias/TypeScript 1.svg";
-import TailwindCSS from "../../public/tecnologias/TailwindCSS.svg";
+// import NextJs from "../../public/tecnologias/NextJs.svg";
+// import TypeScript from "../../public/tecnologias/TypeScript 1.svg";
+// import TailwindCSS from "../../public/tecnologias/TailwindCSS.svg";
 import Image from "next/image";
 
 export function Projetos() {
@@ -71,7 +71,7 @@ export function Projetos() {
         </p>
 
         <div className="flex gap-2 mt-5">
-          
+
           <button className="py-1 px-3 rounded border text-[#38E1C6] font-bold">
             <a href="">Github</a>
           </button>
