@@ -9,6 +9,7 @@ import InicialCadastro from "../../public/images/NextCrud/Inicial.png";
 // import TailwindCSS from "../../public/tecnologias/TailwindCSS.svg";
 import Image from "next/image";
 
+
 export function Projetos() {
   // const [activeId, setActiveId] = useState<number | null>(null);
 
