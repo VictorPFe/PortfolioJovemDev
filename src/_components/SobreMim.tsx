@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FotoPerfil from "../../public/Foto - Victor .jpg";
+import FotoPerfil from "../../public/perfil/Foto - Victor .jpg";
 
 export function SobreMim() {
   return (

@@ -3,15 +3,15 @@
 import React from "react";
 import { useState } from "react";
 import { Card } from "../UI/Card/Card";
-import HTML from "../../public/HTML 1.svg";
-import CSS from "../../public/CSS 1.svg";
-import JavaScript from "../../public/JS 1.svg";
-import TypeScript from "../../public/TypeScript 1.svg";
-import Java from "../../public/Java 1.svg";
-import ReactJS from "../../public/React 1.svg";
-import NextJs from "../../public/NextJs.svg";
-import TailwindCSS from "../../public/TailwindCSS.svg";
-import VueJS from "../../public/VueJs.svg";
+import HTML from "../../public/tecnologias/HTML 1.svg";
+import CSS from "../../public/tecnologias/CSS 1.svg";
+import JavaScript from "../../public/tecnologias/JS 1.svg";
+import Java from "../../public/tecnologias/Java 1.svg";
+import ReactJS from "../../public/tecnologias/React 1.svg";
+import TypeScript from "../../public/tecnologias/TypeScript 1.svg";
+import NextJs from "../../public/tecnologias/NextJs.svg";
+import TailwindCSS from "../../public/tecnologias/TailwindCSS.svg";
+import VueJS from "../../public/tecnologias/VueJs.svg";
 
 export function Habilidades() {
   const [message, setMessage] = useState("");
@@ -20,11 +20,11 @@ export function Habilidades() {
     <section className="bg-[#0D1117] ">
       <div className="max-w-[1280] mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 flex flex-col xl:flex-row items-center justify-center py-30">
 
-        <div className="flex flex-col items-center w-[600px] py-10">
+        <div className="flex flex-col items-center w-full py-10">
           <h3 className="text-[#38E1C6] font-bold text-[1.5rem]">
             HABILIDADES
           </h3>
-          <p className="text-[#D3D3D3] text-[1rem] text-center">
+          <p className="text-[#D3D3D3] text-[1rem] text-center text-wrap">
             {message || "Passe o cursor do mouse no card para ler o card"}
           </p>
         </div>

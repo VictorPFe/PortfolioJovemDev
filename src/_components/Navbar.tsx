@@ -1,5 +1,5 @@
 import Image from "next/image";
-import JD from "../../public/JD.svg";
+import JD from "../../public/logo/JD.svg";
 import { List } from "@phosphor-icons/react/dist/ssr";
 
 export function Navbar() {
