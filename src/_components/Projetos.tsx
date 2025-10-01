@@ -9,7 +9,6 @@ import InicialCadastro from "../../public/images/NextCrud/Inicial.png";
 // import TailwindCSS from "../../public/tecnologias/TailwindCSS.svg";
 import Image from "next/image";
 
-
 export function Projetos() {
   // const [activeId, setActiveId] = useState<number | null>(null);
 
@@ -31,61 +30,73 @@ export function Projetos() {
   // ]
 
   return (
-    <section className="mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 lg:flex justify-center items-center py-20">
-      <h1 className="text-[#38E1C6] font-bold mb-2 text-[1.2rem]">
-        MEUS PROJETOS RECENTES
-      </h1>
+    <section className="mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 py-20">
+      <div className="lg:max-w-[1280]">
+        <div>
+          <h1 className="text-[#38E1C6] font-bold mb-2 text-[1.2rem]">
+            MEUS PROJETOS RECENTES
+          </h1>
 
-      <h2 className="text-white font-bold mb-8 text-[1.4rem]">
-        CÓDIGO, DESIGN E ESTRATÉGIA PARA <br /> LEVAR SUA MARCA ALÉM DO ÓBVIO
-      </h2>
-
-      <div className="bg-[#0D1117] w-full p-4 rounded-2xl overflow-hidden">
-
-        <div className="bg-white w-full h-55 rounded-2xl overflow-hidden relative justify-center items-center flex">
-          <Image
-            src={InicialCadastro}
-            alt="Cadastro Crud"
-            className="object-cover"
-          />
+          <h2 className="text-white font-bold mb-8 text-[1.4rem]">
+            CÓDIGO, DESIGN E ESTRATÉGIA PARA <br /> LEVAR SUA MARCA ALÉM DO
+            ÓBVIO
+          </h2>
         </div>
+        {/* Card do Projeto */}
+        <div className="flex justify-center max-w-[1280px] gap-4">
 
-        <div className="flex flex-wrap gap-2 my-3">
-          <p className="bg-[#02050A] py-1 px-3 rounded text-[#38E1C6] font-bold text-[0.8rem]">
-            Next.JS
-          </p>
-          <p className="bg-[#02050A] py-1 px-3 rounded text-[#38E1C6] font-bold text-[0.8rem]">
-            TypeScript
-          </p>
-          <p className="bg-[#02050A] py-1 px-3 rounded text-[#38E1C6] font-bold text-[0.8rem]">
-            TailwindCSS
-          </p>
-          <p className="bg-[#02050A] py-1 px-3 rounded text-[#38E1C6] font-bold text-[0.8rem]">
-            Firebase
-          </p>
+          <div className="bg-[#0D1117] p-4 rounded-2xl w-[300px]  overflow-hidden">
+            <div className="bg-white w-full h-55 rounded-2xl overflow-hidden relative justify-center items-center flex">
+              <Image
+                src={InicialCadastro}
+                alt="Cadastro Crud"
+                className="object-cover"
+              />
+            </div>
+
+            <div className="flex flex-wrap gap-2 my-3">
+              <p className="rounded  text-[#38E1C6] font-bold text-[0.6rem]">
+                Next.JS
+              </p>
+              <p className="rounded  text-[#38E1C6] font-bold text-[0.6rem]">
+                TypeScript
+              </p>
+              <p className="rounded  text-[#38E1C6] font-bold text-[0.6rem]">
+                TailwindCSS
+              </p>
+              <p className="rounded  text-[#38E1C6] font-bold text-[0.6rem]">
+                Firebase
+              </p>
+            </div>
+
+            <p className="text-[#D3D3D3] text-[0.8rem]">
+              Projeto de cadastro de usuário, onde pode ser feito tanto a
+              inclusão com a exclusão de mais usuários... 
+            </p>
+
+            <div className="flex gap-2 mt-5">
+              <button className="py-1 px-3 rounded  bg-[#02050A] text-[#38E1C6] font-bold">
+                <a href="">Github</a>
+              </button>
+
+              <button className="bg-[#38E1C6] py-1 px-3 rounded text-[#02050A] font-bold">
+                <a href="">Ver online</a>
+              </button>
+            </div>
+          </div>
+
+     
+
+         
+
         </div>
-
-        <p className="text-[#D3D3D3]">
-          Projeto de cadastro de usuário, onde pode ser feito tanto a inclusão
-          com a exclusão de mais usuários... Projeto utilizando firebase como
-          banco de dados, Next.js, TypeScript e TailwindCSS para o front-end.
-        </p>
-
-        <div className="flex gap-2 mt-5">
-
-          <button className="py-1 px-3 rounded border text-[#38E1C6] font-bold">
-            <a href="">Github</a>
-          </button>
-
-          <button className="bg-[#38E1C6] py-1 px-3 rounded text-[#02050A] font-bold">
-            <a href="">Ver online</a>
-          </button>
-
-        </div>
-
       </div>
+    </section>
+  );
+}
 
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+{
+  /* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projetos.map((projeto) => (
           <div
             key={projeto.id}
@@ -128,7 +139,5 @@ export function Projetos() {
           />
           </div>
         ))}
-      </div> */}
-    </section>
-  );
+      </div> */
 }
