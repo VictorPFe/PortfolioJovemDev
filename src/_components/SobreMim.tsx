@@ -3,7 +3,7 @@ import FotoPerfil from "../../public/perfil/Foto - Victor .jpg";
 
 export function SobreMim() {
   return (
-    <section className="mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 lg:flex justify-center items-center">
+    <section className="mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 lg:flex justify-center items-center" id="sobremim">
       <div className="flex flex-col xl:flex-row items-center justify-center lg:w-[1280] pb-44 pt-38">
 
         <div>

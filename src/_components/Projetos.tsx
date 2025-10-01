@@ -30,7 +30,7 @@ export function Projetos() {
   // ]
 
   return (
-    <section className="mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 py-20">
+    <section className="mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 py-20" id="projetos">
       <div className="lg:max-w-[1280]">
         <div>
           <h1 className="text-[#38E1C6] font-bold mb-2 text-[1.2rem]">

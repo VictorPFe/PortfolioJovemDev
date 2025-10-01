@@ -1,6 +1,7 @@
 import Image from "next/image";
 import JD from "../../public/logo/JD.svg";
 import { List } from "@phosphor-icons/react/dist/ssr";
+import Link from "next/link";
 
 export function Navbar() {
   return (
@@ -21,13 +22,15 @@ export function Navbar() {
           </p>
         </div>
         <nav className="text-white font-[family-name:var(--interSans)] font-bold xl:flex hidden">
-          <div className="space-x-8">
-            <a href="#" className="hover:text-[#38E1C6]">Home</a>
-            <a href="#" className="hover:text-[#38E1C6]">Sobre mim</a>
-            <a href="#" className="hover:text-[#38E1C6]">Habilidades</a>
-            <a href="#" className="hover:text-[#38E1C6]">Projetos</a>
-            <a href="#" className="hover:text-[#38E1C6]">Contatos</a>
-          </div>
+         
+            <ul className="flex gap-7">
+              <li><Link href="#" className="hover:text-[#38E1C6]">Home</Link></li>
+              <li><Link href="#sobremim" className="hover:text-[#38E1C6]">Sobre mim</Link></li>
+              <li><Link href="#habilidades" className="hover:text-[#38E1C6]">Habilidades</Link></li>
+              <li><Link href="#projetos" className="hover:text-[#38E1C6]">Projetos</Link></li>
+              <li><Link href="#contatos" className="hover:text-[#38E1C6]">Contatos</Link></li>
+            </ul>
+    
         </nav>
         <button className="bg-[#38E1C6] h-17 w-17 flex justify-center items-center cursor-pointer">
           <List className="text-[#0D1117] h-9 w-9" />

@@ -1,6 +1,6 @@
 export function Contato() {
   return (
-    <section className="mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 lg:flex justify-center items-center">
+    <section className="mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 lg:flex justify-center items-center" id="contatos">
       <div className="lg:flex justify-center items-center lg:w-[1280]">
         <div className="w-full pr-10">
           <h2 className="text-white font-bold text-5xl sm:text-7xl leading-[0.8]">

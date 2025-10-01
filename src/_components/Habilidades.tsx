@@ -18,7 +18,7 @@ export function Habilidades() {
 
   return (
     <section className="bg-[#0D1117] ">
-      <div className="max-w-[1280] mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 flex flex-col xl:flex-row items-center justify-center py-30">
+      <div className="max-w-[1280] mr-10 ml-10 md:mr-20 md:ml-20 lg:mr-50 lg:ml-50 flex flex-col xl:flex-row items-center justify-center py-30" id="habilidades">
 
         <div className="flex flex-col items-center w-full py-10">
           <h3 className="text-[#38E1C6] font-bold text-[1.5rem]">
