@@ -4,10 +4,7 @@ import React from "react";
 // import { useState } from "react";
 // import { Modal } from "../UI/Modal/Modal";
 import InicialCadastro from "../../public/images/NextCrud/Inicial.png";
-// import NextJs from "../../public/tecnologias/NextJs.svg";
-// import TypeScript from "../../public/tecnologias/TypeScript 1.svg";
-// import TailwindCSS from "../../public/tecnologias/TailwindCSS.svg";
-import Image from "next/image";
+import { CardProject } from "@/UI/Card_Project/CardProject";
 
 export function Projetos() {
   // const [activeId, setActiveId] = useState<number | null>(null);
@@ -43,7 +40,8 @@ export function Projetos() {
           </h2>
         </div>
         {/* Card do Projeto */}
-        <div className="flex justify-center max-w-[1280px] gap-4">
+
+        {/* <div className="flex justify-center max-w-[1280px] gap-4">
 
           <div className="bg-[#0D1117] p-4 rounded-2xl w-[300px]  overflow-hidden">
             <div className="bg-white w-full h-55 rounded-2xl overflow-hidden relative justify-center items-center flex">
@@ -84,12 +82,19 @@ export function Projetos() {
               </button>
             </div>
           </div>
+        </div> */}
 
-     
+        <CardProject 
+          image={InicialCadastro}
+          alt="Cadastro Crud"
+          tecnologia="Next.JS"
+          message="Projeto de cadastro de usuário, onde pode ser feito tanto a
+              inclusão com a exclusão de mais usuários... "
+          github="https://github.com/VictorPFe/NextCrud"
+    
+        />
 
-         
 
-        </div>
       </div>
     </section>
   );
