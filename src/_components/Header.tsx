@@ -10,7 +10,7 @@ export function Header() {
           <div className="text-white">
             <h1 className="text-[2.7rem] 2xl:text-6xl leading-10 font-black mb-6">
               OLÁ, EU SOU VICTOR! <br />
-              <span className="text-3xl 2xl:text-4xl text-[#38E1C6]">
+              <span className="text-[1.7rem] 2xl:text-4xl text-[#38E1C6]">
                 DESENVOLVEDOR FRONT-END
               </span>
             </h1>

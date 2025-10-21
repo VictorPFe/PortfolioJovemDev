@@ -34,6 +34,7 @@ export function Projetos() {
         {/* Card do Projeto */}
 
         <div className="flex flex-wrap justify-center gap-5 ">
+          
           <CardProject
             image={InicialCadastro}
             alt="Cadastro Crud"

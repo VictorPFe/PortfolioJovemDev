@@ -18,8 +18,10 @@ const interSans = Inter ({
 
 
 export const metadata: Metadata = {
-  title: "Jovem Dev - Portfólio"
-  
+  title: "Jovem Dev - Portfólio",
+  icons: {
+    icon: "/JD.svg",
+  },
 };
 
 export default function RootLayout({

@@ -26,9 +26,9 @@ export function Navbar() {
             <ul className="flex gap-7">
               <li><Link href="#" className="hover:text-[#38E1C6]">Home</Link></li>
               <li><Link href="#sobremim" className="hover:text-[#38E1C6]">Sobre mim</Link></li>
+              <li><Link href="#contatos" className="hover:text-[#38E1C6]">Contatos</Link></li>
               <li><Link href="#habilidades" className="hover:text-[#38E1C6]">Habilidades</Link></li>
               <li><Link href="#projetos" className="hover:text-[#38E1C6]">Projetos</Link></li>
-              <li><Link href="#contatos" className="hover:text-[#38E1C6]">Contatos</Link></li>
             </ul>
     
         </nav>
