@@ -20,7 +20,7 @@ const interSans = Inter ({
 export const metadata: Metadata = {
   title: "Jovem Dev - Portfólio",
   icons: {
-    icon: "/JD.svg",
+    icon: "/logo/JD_ICON.svg"
   },
 };
 
