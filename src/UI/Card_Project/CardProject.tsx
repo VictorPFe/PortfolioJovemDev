@@ -28,7 +28,7 @@ const CardProject: React.FC<CardProjectProps> = ({
 }) => {
   return (
     <div className="flex justify-center max-w-[1280px] gap-4">
-      <div className="bg-[#0D1117] p-5 rounded-2xl w-[300px] overflow-hidden shadow-lg shadow-[#0a0a0a]/60 duration-300 hover:-translate-y-2 hover:shadow-[#38e1c6]/30">
+      <div className="bg-[#0D1117] p-5 rounded-2xl w-[300px] overflow-hidden shadow-lg shadow-[#0a0a0a]/60 duration-300 hover:-translate-y-2 hover:shadow-[#38e1c6]/30 h-full flex flex-col">
         
         {/* Imagem */}
         <div>
@@ -52,13 +52,13 @@ const CardProject: React.FC<CardProjectProps> = ({
         </div>
 
         {/* Descrição do Projeto */}
-        <p className="text-[#D3D3D3] text-[0.85rem] leading-relaxed">{description}</p>
+        <p className="text-[#D3D3D3] text-[0.85rem] leading-relaxed mb-5">{description}</p>
 
         {/* Botão */}
-        <div className="flex gap-2 mt-5 justify-center">
+        <div className="flex gap-2 justify-center mt-auto">
           
           <button className="py-2 px-5 rounded-lg bg-[#02050A] text-[#38E1C6] font-bold text-sm transiton-all duration-200 hover:bg-[#38E1C6] hover:text-[#02050A]">
-            <a href={github}>Github</a>
+            <a href={github} target="_blank">Github</a>
           </button>
 
           {site && (
