@@ -117,8 +117,3 @@ export function Navbar() {
   );
 }
 
-{
-  /* <button className="bg-[#38E1C6] h-17 w-17 flex justify-center items-center cursor-pointer xl:hidden">
-  <List className="text-[#0D1117] h-9 w-9" />
-</button> */
-}
