@@ -32,9 +32,18 @@ export function Navbar() {
             </ul>
     
         </nav>
-        <button className="bg-[#38E1C6] h-17 w-17 flex justify-center items-center cursor-pointer">
-          <List className="text-[#0D1117] h-9 w-9" />
-        </button>
+        <div>
+          
+          <a href="/Curriculo/Curriculo-VictorPessoa.pdf" download="Curriculo-Victor-Pessoa" className="xl:flex hidden">
+            <button className="font-bold text-[#0D1117] hover:text-white transition-[0.3s] hover:bg-[#0D1117] bg-[#38E1C6] h-17 w-35 flex justify-center items-center cursor-pointer">
+              Download CV
+            </button>
+          </a>
+          
+          <button className="bg-[#38E1C6] h-17 w-17 flex justify-center items-center cursor-pointer xl:hidden">
+            <List className="text-[#0D1117] h-9 w-9" />
+          </button>
+        </div>
       </div>
     </header>
   );
