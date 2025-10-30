@@ -21,7 +21,7 @@ export function Navbar() {
 
   return (
     <header className="w-full fixed top-0 z-11">
-      <div className="bg-[#141C27] flex justify-between items-center  mx-10 md:mx-20 lg:mx-50 shadow-xl/30">
+      <div className="bg-[#141C27] flex justify-between items-center md:mx-20 lg:mx-30 xl:mx50 shadow-xl/30">
         {/* LOGO */}
         <div className="flex items-center">
           <nav className="bg-[#38E1C6] h-17 w-17 flex justify-center items-center">
