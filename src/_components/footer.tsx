@@ -8,12 +8,15 @@ export function Footer (){
         <footer className="xl:flex grid grid-cols-1 gap-20 mb-12 mt-5">
           <div>
             <h3 className="text-2xl font-semibold mb-2">Front-end Developer</h3>
-            <p className="mb-4">Código limpo, design elegante e performance que encanta</p>
+            <p className="mb-4 ">Código limpo, design elegante e performance que encanta</p>
             <a 
             href={`https://wa.me/5571992989634?text=Olá, tudo bem? Vim pelo seu site e gostaria de um orçamento.`}
             className="bg-[#38E1C6] text-[#0D1117] px-4 py-2 rounded-sm"
             >
-              Fale comigo no WhatsApp
+              <button className="font-[family-name:var(--interSans)]">
+                Fale comigo no WhatsApp
+              </button>
+              
             </a>
           </div>
 

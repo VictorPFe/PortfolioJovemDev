@@ -65,7 +65,7 @@ export function Navbar() {
             download="Curriculo-Victor-Pessoa"
             className="xl:flex hidden"
           >
-            <button className="font-bold text-[#0D1117] hover:text-white transition-[0.3s] hover:bg-[#0D1117] bg-[#38E1C6] h-17 w-35 flex justify-center items-center cursor-pointer">
+            <button className="font-bold font-[family-name:var(--poppinsSans)] text-[#0D1117] hover:text-white transition-[0.3s] hover:bg-[#0D1117] bg-[#38E1C6] h-17 w-35 flex justify-center items-center cursor-pointer">
               Download CV
             </button>
           </a>
@@ -105,9 +105,9 @@ export function Navbar() {
            <a
             href="/Curriculo/Curriculo-VictorPessoa.pdf"
             download="Curriculo-Victor-Pessoa"
-            className=""
+            className="font-[family-name:var(--poppinsSans)]"
           >
-            <button className="rounded font-bold text-[#0D1117] hover:text-white transition-[0.3s] hover:bg-[#0D1117] bg-[#38E1C6] h-17 w-35 flex justify-center items-center cursor-pointer">
+            <button className="rounded font-bold  text-[#0D1117] font-[family-name:var(--poppinsSans)] hover:text-white transition-[0.3s] hover:bg-[#0D1117] bg-[#38E1C6] h-17 w-35 flex justify-center items-center cursor-pointer">
               Download CV
             </button>
           </a>
