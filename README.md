@@ -22,7 +22,6 @@ Este projeto é o site de portfólio pessoal de [@VictorPFe](https://github.com/
 | **Next.js**   | Framework React para criação de aplicações modernas e responsivas. |
 | **TypeScript**| Utilizado como linguagem principal. |
 | **Tailwind CSS**| Framework utilitário para estilização. |
-| **PostCSS**   | Processamento de CSS com configurações otimizadas. |
 | **Vercel**    | Plataforma de deploy contínuo e hospedagem do site. |
 | **ESLint / Configuração TS** | Regras de lint e tipagem para garantir qualidade de código. |
 
@@ -92,7 +91,6 @@ O site de portfólio foi projetado com foco nos seguintes aspectos:
 - 📁 **Projetos** — portfólio de trabalhos pessoais e acadêmicos.  
 - 📄 **Currículo / Experiência** — formações e experiências.  
 - 📞 **Contato** — formulário e redes sociais.  
-- ✨ **Extras** — blog, depoimentos ou downloads de CV.
 
 ---
 
