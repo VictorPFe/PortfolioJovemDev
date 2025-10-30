@@ -90,7 +90,7 @@ export function Projetos() {
             title="Pet Shop"
             tecnologia={petS}
             site="https://pet-shop-dev.vercel.app/"
-            description="Simulação interativa do famoso problema de probabilidade de Monty Hall. O usuário escolhe uma porta, uma é revelada e ele decide se troca ou não. O projeto mostra, de forma prática, como a troca aumenta as chances de vitória."
+            description="PetShopDev é uma landing page que apresenta uma pet shop fictícia dedicada ao cuidado e bem-estar dos animais. O site destaca serviços como banho e tosa, consulta veterinária, vacinação, adestramento e táxi pet, além de depoimentos de clientes satisfeitos e informações de contato claras."
             github="https://github.com/VictorPFe/PetShopDev"
           />
        
