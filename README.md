@@ -1,37 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PortfolioJovemDev – Site de Portfólio Profissional
 
-## Getting Started
+Bem‑vindo ao repositório **PortfolioJovemDev**!  
+Este projeto é o site de portfólio pessoal de [@VictorPFe](https://github.com/VictorPFe) — um desenvolvedor jovem em busca de mostrar suas habilidades, projetos e presença online de forma profissional.
 
-First, run the development server:
+---
+
+## 🎯 Visão Geral
+
+- **Nome do Projeto:** PortfolioJovemDev  
+- **URL do Site:** [https://portfolio-jovem-dev.vercel.app/](https://portfolio-jovem-dev.vercel.app/)  
+- **Tipo:** Site de portfólio / currículo online  
+- **Objetivo:** Mostrar os projetos, habilidades, currículo e contato do desenvolvedor de modo limpo, moderno e responsivo.  
+- **Status:** ✅ Em funcionamento / Publicado  
+
+---
+
+## 🧩 Tecnologias Utilizadas
+
+| Tecnologia     | Descrição                                      |
+|---------------|------------------------------------------------|
+| **Next.js**   | Framework React para criação de aplicações modernas e responsivas. |
+| **TypeScript**| Utilizado como linguagem principal. |
+| **Tailwind CSS**| Framework utilitário para estilização. |
+| **PostCSS**   | Processamento de CSS com configurações otimizadas. |
+| **Vercel**    | Plataforma de deploy contínuo e hospedagem do site. |
+| **ESLint / Configuração TS** | Regras de lint e tipagem para garantir qualidade de código. |
+
+---
+
+## 🚀 Como Rodar o Projeto Localmente
 
 ```bash
+# Clone este repositório
+git clone https://github.com/VictorPFe/PortfolioJovemDev.git
+
+# Acesse a pasta do projeto
+cd PortfolioJovemDev
+
+# Instale as dependências
+npm install
+# ou
+yarn install
+
+# Rode o servidor de desenvolvimento
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Abra no navegador
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🗂 Estrutura de Pastas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+/
+├─ public/                  # Imagens e arquivos estáticos (ícones, fotos, favicons)
+├─ src/                     # Código‑fonte principal
+│  ├─ components/           # Componentes reutilizáveis da interface
+│  ├─ pages/                # Páginas da aplicação (rotas Next.js) ou /app/ no Next.js 13+
+│  ├─ styles/               # Estilos globais e configuração do Tailwind
+│  └─ …                     # Outros diretórios conforme projeto
+├─ next.config.ts           # Configuração do Next.js
+├─ tailwind.config.js       # Configuração do Tailwind CSS
+├─ postcss.config.mjs       # Configuração do PostCSS
+├─ tsconfig.json            # Configuração de TypeScript
+├─ eslint.config.mjs        # Configuração de ESLint
+└─ README.md                # Este arquivo
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🖥️ Design & Experiência de Usuário
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O site de portfólio foi projetado com foco nos seguintes aspectos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Responsividade completa** — adaptável para desktop, tablet e celular.  
+- **Performance otimizada** — com Next.js e boas práticas de front‑end.  
+- **Visual limpo e profissional** — foco nos projetos e habilidades.  
+- **Navegação simples** — o visitante encontra rapidamente as informações.  
+- **Escalabilidade** — o código permite expansão (ex: adicionar blog, seção de serviços etc).
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌟 Seções Principais do Site
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# PortfolioJovemDev
+- 👤 **Sobre mim** — biografia e foto do desenvolvedor.  
+- 🛠 **Habilidades / Tecnologias** — ferramentas e linguagens dominadas.  
+- 📁 **Projetos** — portfólio de trabalhos pessoais e acadêmicos.  
+- 📄 **Currículo / Experiência** — formações e experiências.  
+- 📞 **Contato** — formulário e redes sociais.  
+- ✨ **Extras** — blog, depoimentos ou downloads de CV.
+
+---
+
+## 💡 Possíveis Melhorias Futuras
+
+- Adicionar formulário de contato funcional.  
+- Incorporar blog com artigos e novidades.  
+- Adicionar modo claro/escuro.  
+- Otimizar SEO e acessibilidade.  
+- Integrar Google Analytics.
+
+---
+
+## 🧑‍💻 Autor / Contato
+
+**Desenvolvido por [VictorPFe](https://github.com/VictorPFe)**  
+Se você gostou do projeto, confira o portfólio online:  
+🌐 [https://portfolio-jovem-dev.vercel.app/](https://portfolio-jovem-dev.vercel.app/)  
+
+---
+
+Obrigado por visitar este repositório! 🎉
