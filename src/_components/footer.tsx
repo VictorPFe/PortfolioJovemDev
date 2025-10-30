@@ -5,7 +5,7 @@ export function Footer (){
     <section className="bg-[#0D1117] py-16 text-white">
       <div className="flex items-center justify-center px-4">
 
-        <footer className="flex flex-cols-1 md:flex-cols-2 lg:flex-cols-3 gap-20 mb-12 mt-5">
+        <footer className="xl:flex grid grid-cols-1 gap-20 mb-12 mt-5">
           <div>
             <h3 className="text-2xl font-semibold mb-2">Front-end Developer</h3>
             <p className="mb-4">Código limpo, design elegante e performance que encanta</p>
