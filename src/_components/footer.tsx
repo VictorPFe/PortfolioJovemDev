@@ -10,6 +10,7 @@ export function Footer (){
             <h3 className="text-2xl font-semibold mb-2">Front-end Developer</h3>
             <p className="mb-4 ">Código limpo, design elegante e performance que encanta</p>
             <a 
+            target="_blank"
             href={`https://wa.me/5571992989634?text=Olá, tudo bem? Vim pelo seu site e gostaria de um orçamento.`}
             className="bg-[#38E1C6] text-[#0D1117] px-4 py-2 rounded-sm"
             >
