@@ -21,12 +21,16 @@ export function SobreMim() {
           <div className="flex gap-5 ">
             <div className="bg-[#38E1C6] sm:w-70 sm:h-1 sm:ml-5"></div>
             <p className="text-[#D3D3D3] text-[1rem] mr-15">
-              Sou um estudante dedicado apaixonado por programação, atualmente
-              estou cursando Desenvolvimento Full Stack na Universidade Estácio
-              de Sá, adquiri experiência prática em tecnologias essenciais para
-              a criação de soluções webcompletas. Tenho habilidades em front-
-              end, incluindo HTML, CSS, JavaScript e Tailwind CSS e também no
-              desenvolvimento back-end com Java, Node.js, Express e Python.
+              Desenvolvedor Front-end Júnior apaixonado por tecnologia e criação 
+              de soluções digitais. Experiência prática no desenvolvimento de 
+              interfaces modernas e responsivas, utilizando HTML, CSS, JavaScript, 
+              React e Next.js. Boa compreensão de lógica de programação, integração 
+              com APIs e foco em código limpo, desempenho e usabilidade. <br/>
+              Possuo também conhecimentos em Back-end, utilizando Node.js e Express, além de 
+              experiência na realização de testes de APIs com Postman. Tenho conhecimentos 
+              básicos em bancos de dados como MySQL, PostgreSQL e MongoDB, aplicando conceitos 
+              fundamentais de modelagem e manipulação de dados.
+
             </p>
           </div>
 

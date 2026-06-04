@@ -8,6 +8,8 @@ import InicialCadastro from "../../public/images/NextCrud/Inicial.png";
 import burguerDelicious from '../../public/images/CardapioHamburgueria/BurgerDelicious.png';
 import montyHall from "../../public/images/MontyHall/MontyHall.png";
 import petshop from "../../public/images/PetShop/PetShop.png";
+import spotifyF from '../../public/images/Spotify/Spotify.png';
+
 
 
 export function Projetos() {
@@ -34,6 +36,10 @@ export function Projetos() {
     "TailwindCSS",
     "TypeScript",
     "AOS"
+  ]
+  const spotify = [
+    "HTML",
+    "Bootstrap"
   ]
 
 
@@ -92,6 +98,16 @@ export function Projetos() {
             site="https://pet-shop-dev.vercel.app/"
             description="PetShopDev é uma landing page que apresenta uma pet shop fictícia dedicada ao cuidado e bem-estar dos animais. O site destaca serviços como banho e tosa, consulta veterinária, vacinação, adestramento e táxi pet, além de depoimentos de clientes satisfeitos e informações de contato claras."
             github="https://github.com/VictorPFe/PetShopDev"
+          />
+          <CardProject
+            image={spotifyF}
+            alt="Spotify"
+            title="Spotify"
+            tecnologia={spotify}
+            site="https://spotify-music-psi.vercel.app/"
+            description="Landing page inspirada no Spotify, desenvolvida com foco em um design moderno, responsivo e visualmente atrativo. O projeto apresenta uma interface organizada e intuitiva, utilizando HTML, CSS e Bootstrap para criar uma experiência agradável em diferentes dispositivos. A página foi criada para demonstrar habilidades em desenvolvimento front-end, estruturação de layouts e estilização de interfaces modernas."
+            github="https://github.com/VictorPFe/Spotify---Music"
+            classname="object-cover "
           />
        
         </div>
