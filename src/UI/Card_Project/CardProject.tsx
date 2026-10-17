@@ -33,7 +33,7 @@ const CardProject: React.FC<CardProjectProps> = ({
         {/* Imagem */}
         <div>
           <div className="bg-white w-full h-55 rounded-2xl overflow-hidden relative justify-center items-center flex">
-            <Image src={image} alt={alt} className="object-cover" sizes="100vw" priority />
+            <Image src={image} alt={alt} className="object-cover h-full" sizes="100vw" priority />
           </div>
         </div>
 
@@ -57,8 +57,8 @@ const CardProject: React.FC<CardProjectProps> = ({
         {/* Botão */}
         <div className="flex gap-2 justify-center mt-auto">
           
-          <button className="py-2 px-5 rounded-lg bg-[#02050A] text-[#38E1C6] font-bold text-sm transiton-all duration-200 hover:bg-[#38E1C6] hover:text-[#02050A]">
-            <a href={github} target="_blank">Github</a>
+          <button>
+            <a href={github} target="_blank" className="cursor-pointer py-2.5 px-5 rounded-lg bg-[#02050A] text-[#38E1C6] font-bold text-sm transiton-all duration-200 hover:bg-[#38E1C6] hover:text-[#02050A]">Github</a>
           </button>
 
           {site && (

@@ -6,9 +6,10 @@ import React from "react";
 import CardProject from "@/UI/Card_Project/CardProject";
 import InicialCadastro from "../../public/images/NextCrud/Inicial.png";
 import burguerDelicious from '../../public/images/CardapioHamburgueria/BurgerDelicious.png';
-import montyHall from "../../public/images/MontyHall/MontyHall.png";
 import petshop from "../../public/images/PetShop/PetShop.png";
 import spotifyF from '../../public/images/Spotify/Spotify.png';
+import barbarFlow from '../../public/images/BarberFlow/BarberFlow.png';
+
 
 
 
@@ -27,8 +28,12 @@ export function Projetos() {
     "JavaScript"
   ]
   const montyH = [
-    "Vue.js",
-    "CSS"
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Node.JS",
+    "Express",
+    "PostgreSQL"
   ]
   const petS = [
     "React",
@@ -82,13 +87,13 @@ export function Projetos() {
             github="https://github.com/VictorPFe/Cardapio-de-Hamburgueria"
           />
           <CardProject
-            image={montyHall}
-            alt="Problema de Monty Hall"
-            title="Problema de Monty Hall"
+            image={barbarFlow}
+            alt="BarberFlow - Barber Studio"
+            title="BarberFlow - Barber Studio"
             tecnologia={montyH}
-            site="https://problema-monty-hall.vercel.app/"
-            description="Simulação interativa do famoso problema de probabilidade de Monty Hall. O usuário escolhe uma porta, uma é revelada e ele decide se troca ou não. O projeto mostra, de forma prática, como a troca aumenta as chances de vitória."
-            github="https://github.com/VictorPFe/ProblemaMontyHall"
+            site="https://barberflow-seven-omega.vercel.app/"
+            description="Barbearia com sistema de agendamento integrado ao sistema web - 'Ainda em desenvolvimento'"
+            github="https://github.com/VictorPFe/BarberFlow/"
           />
           <CardProject
             image={petshop}
